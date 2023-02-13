@@ -15,6 +15,15 @@ li {
   background-color: #b7b6b68f;
   border-radius: 15px;
 }
+.complete-task {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
 
 .task-actions {
   display: flex;
@@ -56,3 +65,65 @@ button#add-task-button:hover {
   width: 100%;
   border-radius: 15px;
 }
+
+.task-text {
+  max-width: 400px;
+  word-wrap: break-word;
+  display: inline-block;
+  text-align: center;
+}
+.task-date{
+  position: relative;
+  color: black;
+  display:flex;
+  float: right; font-size: small;
+}
+
+button#edit-task-button:hover {
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+}
+
+button#delete-task-button:hover {
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+  border-radius: 15px;
+}
+
+
+#deleteAllTasks {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 10px 20px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position:fixed;
+}
+#deleteAllTasks:hover{
+  color: white;
+  opacity: 0.8;
+}
+
+#task-status {
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.add-task-container{
+  color: #fff;
+  font-size: 18px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
