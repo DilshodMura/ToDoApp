@@ -93,7 +93,7 @@ button#delete-task-button:hover {
 }
 
 
-#deleteAllTasks {
+#delete-task-button {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -105,7 +105,7 @@ button#delete-task-button:hover {
   cursor: pointer;
   position:fixed;
 }
-#deleteAllTasks:hover{
+#delete-task-button:hover{
   color: white;
   opacity: 0.8;
 }
