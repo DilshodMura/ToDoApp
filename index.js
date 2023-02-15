@@ -1,3 +1,3 @@
-import './ligh-dark-modes.js';
-import './headeranimation.js';
-import './add-delete-tasks.js';
+import './js/ligh-dark-modes.js';
+import './js/headeranimation.js';
+import './js/add-delete-tasks.js';
